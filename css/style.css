@@ -1,0 +1,100 @@
+body{
+    background: #fff;
+    font-family: sans-serif;
+}
+
+.loginForm{
+    background: #eceff5;
+    width: 700px;
+    margin: auto;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background: #3b5998;
+    padding: 10px;
+}
+
+form{
+    padding: 10px;
+}
+
+span{
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+label{
+    color: #8d948e;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.inputs{
+    width: 100%;
+    height: 40px;
+    
+}
+
+
+
+.createAccountTop{
+    color: #fff;
+    text-decoration: none;
+    background: #69a74e;
+    padding: 7px;
+}
+
+.createAccountBellow{
+    color: #fff;
+    text-decoration: none;
+    background: #42b72a;
+    padding: 15px;
+    width:120px;
+    text-align: center;
+    align-self: center; 
+}
+
+
+.submit{
+    background: #4267b2;
+    font-size: 18px;
+    padding: 15px;
+    color: #fff;
+    width: 100%;
+    border: none;
+}
+
+.submit:hover{
+    background: #465e91;
+}
+
+p{
+    align-self: center; 
+    color: #8d948e;
+
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.forgotPassword{
+    text-decoration: none;
+    font-size: 19px;
+    margin: 15px 0 15px 0;
+    width: 290px;
+
+}
+
+.forgotPassword:hover{
+    background: #4267b2;
+    color: #fff; 
+}
+
+
+
